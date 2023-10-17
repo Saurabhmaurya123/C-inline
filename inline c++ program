@@ -1,0 +1,12 @@
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+inline int sum( int x, int y)
+{return x+y;}
+int main()
+{ int a,b,c;
+cout<<"enter the two number:";
+cin>>a>>b;
+c=sum(a,b);
+cout<<"sum=" <<c;
+return 0;}
